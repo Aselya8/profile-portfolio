@@ -8,7 +8,7 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import Portfolio from './components/Portfolio';
 import Certificates from './components/Certificates';
-import CertificatesCarousel from './components/CertificatesCarousel';
+import Contacts from './components/Contacts';
 
 
 function App() {
@@ -43,6 +43,7 @@ function App() {
       <Education />
       <Portfolio />
       <Certificates />
+      <Contacts />
 
     </>
   );
