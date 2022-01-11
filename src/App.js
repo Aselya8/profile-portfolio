@@ -7,6 +7,8 @@ import AboutMe from './components/AboutMe';
 import Skills from './components/Skills'; 
 import Education from './components/Education';
 import Portfolio from './components/Portfolio';
+import Certificates from './components/Certificates';
+import CertificatesCarousel from './components/CertificatesCarousel';
 
 
 function App() {
@@ -40,6 +42,8 @@ function App() {
       <Skills />
       <Education />
       <Portfolio />
+      <Certificates />
+
     </>
   );
 }

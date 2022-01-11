@@ -10,6 +10,7 @@
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
   --primary-black: #000000;
+  ----primary-transparent-black: rgba(0,0,0,0.7)
 }
 
 body {
@@ -321,7 +322,7 @@ marker {
 }
 
 .portfolio-image {
-  width: 15rem;
+  width: 20rem;
   border: 1px solid var(--primary-orange);
   padding: 0 0.5rem;
 }
@@ -335,8 +336,8 @@ marker {
   position: absolute;
    opacity: 0;
    background: var(--primary-black);
-   width: 15rem;
-   height: 8rem;
+   width: 20rem;
+   height: 12rem;
    top: 0;
   border: 1px solid var(--primary-red);
   cursor: pointer;
@@ -350,8 +351,8 @@ marker {
 .portfolio-icon {
   position: absolute;
   opacity: 0;
-  margin-left: -8rem;
-  margin-top: 3.6rem;
+  margin-left: -10rem;
+  margin-top: 5.5rem;
   color: var(--primary-orange);
   font-size: 1.5rem;
 }
@@ -406,10 +407,43 @@ marker {
     }
   }
 
+/************************ CERTIFICATES *********************************/
+.certificates {
+  background-image: url(bg.jpg);
+  background-size: cover;
+  background-color: var(--primary-black);
+  text-align: center;
+  padding-bottom: 4rem;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.certificates h1 {
+  color: var(--primary-orange);
+  padding: 3rem 0;
+  text-transform: uppercase;
+}
+
+.certificates-content{
+  max-width: 23.125rem;
+  margin: 0 auto 2rem auto;
+  background: var(--primary-transparent-black); 
+}
 
 
 
-  
+
+
+.carousel .slide {
+  background: transparent !important;
+  height: 100% !important;
+  padding-top: 2rem;
+}
+
+.carousel-root {
+  margin: auto !important;
+  margin-top: 3% !important;
+}
 
 
 
