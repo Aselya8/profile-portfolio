@@ -7,8 +7,10 @@ import AboutMe from './components/AboutMe';
 import Skills from './components/Skills'; 
 import Education from './components/Education';
 import Portfolio from './components/Portfolio';
-import Certificates from './components/Certificates';
+import Testimonials from './components/Testimonials';
+import Certificates from './components/Certificates'
 import Contacts from './components/Contacts';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -43,8 +45,9 @@ function App() {
       <Education />
       <Portfolio />
       <Certificates />
+      <Testimonials />
       <Contacts />
-
+      <Footer />
     </>
   );
 }

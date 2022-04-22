@@ -1,7 +1,7 @@
 import React from "react";
 import travel from "../images/travel.png";
-import books from "../images/books.jpg";
-import portfolio from "../images/portfolio.jpg";
+import reactNative from "../images/react-native-project-photo.png";
+import portfolio from "../images/portfolio.png";
 // REACT POPUPBOX
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
@@ -21,11 +21,20 @@ const Portfolio = () => {
         const content = (
             <>
                 <img className="portfolio-image-popupbox" src={travel} alt="Travel Company Project..." />
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
+                <p>
+                <br />A responsive website that is fully functional, would allow a user to search for any place
+                <br />This project was used purely to get comfortable with designing with Bootstrap.
+                </p>
+                <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://wonderful-khorana-3068e9.netlify.app/", "_blank")}>https://wonderful-khorana-3068e9.netlify.app/</a>
+        <br />
                 <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Aselya8/project-travel-company")}>https://github.com/Aselya8/project-travel-company</a>
             </>
         )
-        PopupboxManager.open({ content })
+        PopupboxManager.open({ content });
+        PopupboxManager.update({  content, config: {
+          titleBar: {  text: "Travel Company Website with Bootstrap"  }
+},
+});
     }
 
     const popupboxConfigTravel = {
@@ -40,20 +49,26 @@ const Portfolio = () => {
     //
     //React Native Project
     
-  const openPopupboxBooks = () => {
+  const openPopupboxReactNativeApp = () => {
     const content = (
       <>
-        <img className="portfolio-image-popupbox" src={books} alt="Books Project..." />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://city-guide-app-project.herokuapp.com/", "_blank")}>https://city-guide-app-project.herokuapp.com/</a>
+        <img className="portfolio-image-popupbox" src={reactNative} alt="React Native Project..." />
+        <p>
+        <br />A React Native application in which the user can search for any place to visit in Kyrgyzstan. 
+        <br />After logging in to their account, the user can save and add favorite place. 
+        <br />Technologies used: Javascript, React JS, React Native, API's, React Redux, React Native Elements.</p>
         <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/city-guide-app", "_blank")}>https://github.com/8020Coding/city-guide-app</a>
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Aselya8/React-native-project", "_blank")}>https://github.com/Aselya8/React-native-project</a>
       </>
     )
-    PopupboxManager.open({ content })
+    PopupboxManager.open({ content });
+    PopupboxManager.update({  content, config: {
+      titleBar: {  text: "Mobile application with React Native"  }
+},
+});
   }
 
-  const popupboxConfigBooks = {
+  const popupboxConfigReactNativeApp = {
     titleBar: {
       enable: true,
       text: "Portfolio Project."
@@ -68,13 +83,17 @@ const Portfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={portfolio} alt="Portfolio Project..." />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://portfolio-rea-and-material-ui.herokuapp.com/", "_blank")}>https://portfolio-rea-and-material-ui.herokuapp.com/</a>
-        <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/8020Coding/portfilio", "_blank")}>https://github.com/8020Coding/portfilio</a>
+        <p>
+        <br />This is portfolio project. I used tools as React Hooks, bootstrap, react-particles, 
+        <br />react-popupbox, react-responsive-carousel.</p>
+        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Aselya8/portfolio-project-react", "_blank")}>https://github.com/Aselya8/portfolio-project-react</a>
       </>
     )
-    PopupboxManager.open({ content })
+    PopupboxManager.open({ content });
+    PopupboxManager.update({  content, config: {
+      titleBar: {  text: "Portfolio Project with React"  }
+},
+});
   }
 
   const popupboxConfigPortfolio = {
@@ -99,8 +118,8 @@ const Portfolio = () => {
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                     {/* - */}
-                    <div className="portfolio-image-box" onClick={openPopupboxBooks}>
-                        <img className="portfolio-image" src={books} alt="Books React Native Project..." />
+                    <div className="portfolio-image-box" onClick={openPopupboxReactNativeApp}>
+                        <img className="portfolio-image" src={reactNative} alt="React Native Project..." />
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
@@ -113,7 +132,7 @@ const Portfolio = () => {
                 </div>
             </div>
             <popupboxConfigTravel {...popupboxConfigTravel} />
-            <PopupboxContainer {...popupboxConfigBooks} />
+            <PopupboxContainer {...popupboxConfigReactNativeApp} />
             <PopupboxContainer {...popupboxConfigPortfolio} />
         </div>
 

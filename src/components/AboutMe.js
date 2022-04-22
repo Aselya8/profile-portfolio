@@ -1,9 +1,9 @@
 import React from "react";
-import author from "../me.jpg"
+import author from "../me.png"
 
 const AboutMe = () => {
     return (
-        <div className="container py-5">
+        <div id="about" className="container py-5">
             <div className="row">
                 <div className="col-lg-6 col-xm-12">
                     <div className="photo-wrap mb-5">
@@ -15,11 +15,9 @@ const AboutMe = () => {
                     <p>
                         Hello, my name is Asel. I'm a Full-Stack Web Developer. Technologes I use is MERN(MongoDB, Express, ReactJS and NodeJS).
                         I create responsive websites that are displayed on all devices desktops and smartphones.
-                        Before I start developing website for you, we will discuss all the details of your niche with you, I will conduct a survey of your competitors and make a list of their advantages and weaknesses.
-
-                        All this is necessery to give your customers something that your competitors do not provide, or to present it too, but better!
-
-                        After the website is finished and ready to deploy and sll a product or service. It is essential that your potential clients know about you. I will create an advertising campaign for you in Google Adwords and Facebook!
+                        <br />
+                        Supportive and enthusiastic team player dedicated to streamlining processes and efficiently resolving project issues. Dedicated to perfecting software before final release cycles.
+                        I'm happiest when I'm creating, learning, exploring and thinking about how to make things better. 
 
                     </p>
                 </div>

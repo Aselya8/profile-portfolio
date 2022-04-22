@@ -1,8 +1,11 @@
 import React from "react";
 import logo from "../logo.png";
+import {Link} from "react-scroll"
 // React Fontawesome imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faBars} from "@fortawesome/free-solid-svg-icons";
+import { LinkedinIcon } from "react-share";
+
 
 const Navbar = () => {
     return (
@@ -16,22 +19,22 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item active">
-                        <a className="nav-link" href="#">Home <span className="sr-only"></span></a>
+                        <Link smooth={true} to="home" className="nav-link" href="#">Home <span className="sr-only"></span></Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">About me</a>
+                        <Link smooth={true} to="about" className="nav-link" href="#">About me</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Skills</a>
+                        <Link  smooth={true} to="skills" className="nav-link" href="#">Skills</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Education</a>
+                        <Link smooth={true} to="education" className="nav-link" href="#">Education</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Projects</a>
+                        <Link smooth={true} to="portfolio" className="nav-link" href="#">Projects</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Contacts</a>
+                        <Link smooth={true}  to="contacts" className="nav-link" href="#">Contacts</Link>
                     </li>
                 </ul>
             </div>
