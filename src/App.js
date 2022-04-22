@@ -36,8 +36,8 @@ function App() {
               }
             }
           }
-        }}
-      />
+        }}/
+>
       < Navbar />
       <Header />
       <AboutMe />
