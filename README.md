@@ -1,4 +1,4 @@
-This is portfolio project. I used tools as React Hooks, bootstrap, react-particles,
+This is portfolio project. I used tools as React Hooks, bootstrap,
 react-popupbox, react-responsive-carousel.
 
 
