@@ -5,26 +5,16 @@ const Education = () => {
     return (
         <div id="education" className="education">
             <div className="d-flex justify-content-center my-5">
-                <h1>education & experience</h1>
+                <h1>education</h1>
             </div>
             <div className="container education-wrapper">
-                <div className="timeline-block timeline-block-right">
-                    <div className="marker"></div>
-                    <div className="timeline-content">
-                    <h3>KyrgyzTelecom/Bishkek</h3>
-                    <p>
-                    <br />Organized information for use by team members in data analytics, reports and presentations.<br /> - Computer programmer 
-                    </p>
-                    </div>
-                </div>
-
                 <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                    <h3>International University of Kyrgyzstan</h3>
+                    <h3>Polytechnic College of International University of Kyrgyzstan</h3>
                     <p>
-                    <br /> Information Technology.
-                    <br /> - Bachelor Degree Diploma
+                    <br /> Communication Systems and Networks
+                    <br /> - Bachelor of Computer Science
                     <br /> 
                     </p>
                     
@@ -34,11 +24,11 @@ const Education = () => {
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                    <h3>Nucamp/San Francisco</h3>
+                    <h3>Nucamp Coding Bootcamp/San Francisco,CA</h3>
                     <p>  
-                    <br /> - Web Development Fundamentals Certificate 
-                    <br /> - Front End Web + Mobile Developer Certificate 
-                    <br /> - Full Stack Web and Mobile App Developer Certificate
+                    <br /> - Web Development Fundamentals - Certificate 
+                    <br /> - Front End Web + Mobile Developer - Certificate 
+                    <br /> - Full Stack Web and Mobile App Developer - Certificate
                     </p>
                     </div>
                 </div>
@@ -46,8 +36,8 @@ const Education = () => {
                 <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                    <h3>Los Medanos College/Pittsburg,CA</h3>
-                    <p> - Computer Science
+                    <h3>Diablo Valley College/Pleasant Hill,CA</h3>
+                    <p> - - Computer Information Systems
                     <br /> - In progress
                     </p>
                     </div>

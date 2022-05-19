@@ -14,11 +14,9 @@ const AboutMe = () => {
                     <h1 className="about-heading">about me</h1>
                     <p>
                         Hello, my name is Asel. I'm a Full-Stack Web Developer. Technologes I use is MERN(MongoDB, Express, ReactJS and NodeJS).
-                        I create responsive websites that are displayed on all devices desktops and smartphones.
+                        I have been interested in software engineering for over 20 years, and I began my journey by receiving a bachelor’s in information technology and have had a thirst for more knowledge. I received several certifications since moving to Silicon Valley. I am highly organized, I have outstanding attention to details, and I believe that prioritization is what makes the field of software development so successful. 
                         <br />
-                        Supportive and enthusiastic team player dedicated to streamlining processes and efficiently resolving project issues. Dedicated to perfecting software before final release cycles.
-                        I'm happiest when I'm creating, learning, exploring and thinking about how to make things better. 
-
+                        Learning to code inadvertently taught me to think critically and to effectively problem solve. I understand the logic. Learning to code has benefited me personally and professionally by encouraging me to take a step back and approach situations from a new perspective. 
                     </p>
                 </div>
             </div>
