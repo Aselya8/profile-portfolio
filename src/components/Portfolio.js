@@ -25,7 +25,7 @@ const Portfolio = () => {
                 <br />A responsive website that is fully functional, would allow a user to search for any place
                 <br />This project was used purely to get comfortable with designing with Bootstrap.
                 </p>
-                <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://sun-travel.netlify.app/", "_blank")}>https://sun-travel.netlify.app</a>
+                <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://sun-travel.netlify.app", "_blank")}>https://sun-travel.netlify.app</a>
         <br />
                 <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/Aselya8/project-travel-company")}>https://github.com/Aselya8/project-travel-company</a>
             </>
