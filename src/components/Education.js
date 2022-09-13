@@ -20,25 +20,39 @@ const Education = () => {
                     </div>
                 </div>
 
+                
+                /* 
+                //<div className="timeline-block timeline-block-right">
+                //  <div className="marker"></div>
+                //     <div className="timeline-content">
+                //     <h3>Diablo Valley College/Pleasant Hill,CA</h3>
+                //     <p> Computer Information Systems
+                //     <br /> January 2020 - Present
+                //     </p>
+                //     </div>
+                // </div>*/
+
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                    <h3>Diablo Valley College/Pleasant Hill,CA</h3>
-                    <p> Computer Information Systems
-                    <br /> January 2020 - Present
+                    <h3>Apprentice Now - INFOSYS </h3>
+                    <p> APPLICATION DEVELOPMENT - JAVA INTENSIVE 
+                    <br /> July 2022 - September 2022
                     </p>
                     </div>
                 </div>
 
+
                 <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                    <h3>Nucamp Coding Bootcamp/San Francisco,CA</h3>
-                    <p> Full Stack Web and Mobile App Developer
+                    <h3>Nucamp Coding Bootcamp</h3>
+                    <p> FULL STACK WEB and MOBILE APP DEVELOPMENT
                     <br /> May 2021 - November 2021 
                     </p>
                     </div>
                 </div>
+
 
             </div>
         </div>
