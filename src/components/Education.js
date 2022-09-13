@@ -20,18 +20,6 @@ const Education = () => {
                     </div>
                 </div>
 
-                
-                /* 
-                //<div className="timeline-block timeline-block-right">
-                //  <div className="marker"></div>
-                //     <div className="timeline-content">
-                //     <h3>Diablo Valley College/Pleasant Hill,CA</h3>
-                //     <p> Computer Information Systems
-                //     <br /> January 2020 - Present
-                //     </p>
-                //     </div>
-                // </div>*/
-
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
