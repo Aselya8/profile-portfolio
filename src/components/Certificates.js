@@ -123,7 +123,7 @@ const Certificates = () => {
             <div className="container">
                 <h1 className="text-uppercase text-center py-5">Certificates</h1>
                 <div className="image-box-wrapper row row-cols-auto justify-content-center">
-                
+
                     <div className="certificate-image-box" onClick={openPopupboxCertificate1}>
                         <img className="certificate-image" src={certificate1} alt="Certificate1..." />
                         <div className="certificate-overflow"></div>
@@ -145,8 +145,8 @@ const Certificates = () => {
                     </div>
 
                     {/* - */}
-                    <div className="certificate-image-box" onClick={openPopupboxCertificate3}>
-                        <img className="certificate-image" src={certificate3} alt="Certificate3..." />
+                    <div className="certificate-image-box" onClick={openPopupboxCertificate4}>
+                        <img className="certificate-image" src={certificate3} alt="Certificate4..." />
                         <div className="certificate-overflow"></div>
                         <FontAwesomeIcon className="certificate-icon" icon={faSearchPlus} />
                     </div>
