@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJs, faReact, faCss3, faHtml5, faNodeJs, faBootstrap, faJava, faAngular, faGithub, faAngular} from "@fortawesome/free-brands-svg-icons";
+import { faJs, faReact, faCss3, faHtml5, faNodeJs, faBootstrap, faJava, faGithub} from "@fortawesome/free-brands-svg-icons";
 import {  faDatabase, faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
 
 
@@ -60,7 +60,7 @@ const Skills = () => {
                         </div>
 
                         <div className="col-lg-3 col-md-6 col-sm-6">
-                            <div className="circle"><FontAwesomeIcon className="icon" icon={faFileCode} size="2x" /></div>
+                            <div className="circle"><FontAwesomeIcon className="icon" icon={faDatabase} size="2x" /></div>
                                 <h3>MongoDB
                                 </h3>
                         </div>
@@ -71,7 +71,7 @@ const Skills = () => {
                         </div>
 
                         <div className="col-lg-3 col-md-6 col-sm-6">
-                            <div className="circle"><FontAwesomeIcon className="icon" icon={faAngular} size="2x" /></div>
+                            <div className="circle"><FontAwesomeIcon className="icon" icon={faFileCode} size="2x" /></div>
                                 <h3>Angular
                                 </h3>
                         </div>
