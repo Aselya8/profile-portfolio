@@ -102,7 +102,7 @@ const Certificates = () => {
     )
     PopupboxManager.open({ content });
     PopupboxManager.update({  content, config: {
-      titleBar: {  text: "Application Developmenr - JAVA Intensive"  }
+      titleBar: {  text: "Application Development - JAVA Intensive"  }
 },
 });
   }
