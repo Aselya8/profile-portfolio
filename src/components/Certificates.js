@@ -3,7 +3,7 @@ import certificate1 from "../images/certificate1.png";
 import certificate2 from "../images/certificate2.png";
 import certificate3 from "../images/certificate3.png";
 //added an new certificate
-import certificate3 from "../images/certificate4.png";
+import certificate4 from "../images/certificate4.png";
 // REACT POPUPBOX
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
 import "react-popupbox/dist/react-popupbox.css";
@@ -146,7 +146,7 @@ const Certificates = () => {
 
                     {/* - */}
                     <div className="certificate-image-box" onClick={openPopupboxCertificate4}>
-                        <img className="certificate-image" src={certificate3} alt="Certificate4..." />
+                        <img className="certificate-image" src={certificate4} alt="Certificate4..." />
                         <div className="certificate-overflow"></div>
                         <FontAwesomeIcon className="certificate-icon" icon={faSearchPlus} />
                     </div>
