@@ -12,7 +12,7 @@ const Education = () => {
                     <div className="marker"></div>
                     <div className="timeline-content">
                     <h3>Polytechnic College of International University of Kyrgyzstan</h3>
-                    <p> Communication Systems and Networks
+                    <p> COMMUNICATION SYSTEMS and NETWORKS
                     <br /> September 2006 — June 2009
                     <br />
                     <br /> 

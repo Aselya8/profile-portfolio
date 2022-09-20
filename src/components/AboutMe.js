@@ -14,9 +14,9 @@ const AboutMe = () => {
                     <h1 className="about-heading">about me</h1>
                     <p>
                         Hello, my name is Asel. I'm a Full-Stack Web Developer. 
-                        I have been interested in software engineering for over 15 years, and I began my journey by receiving a degree in information technology and have had a thirst for more knowledge. I received several certifications since moving to Silicon Valley.
+                        I have been interested in software engineering for over 15 years. I began my journey by receiving a degree in information technology and have had a thirst for more knowledge. I received several certifications since moving to Silicon Valley.
                         <br />
-                        However, willing and able to learn new technologies in order to impact team goals effectively. I have always believed in the values of teamwork. My main goal is to gain employment with Infosys, where my skills will get an opportunity to flourish. 
+                        However, willing and able to learn new technologies in order to impact team goals effectively.  
                     </p>
                 </div>
             </div>
