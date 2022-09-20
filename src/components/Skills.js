@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faJs, faReact, faCss3, faHtml5, faNodeJs, faBootstrap, faJava, faAngular, faGithub, faAngular } from "@fortawesome/free-brands-svg-icons";
-import { faDatabase, faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
+import { faJs, faReact, faCss3, faHtml5, faNodeJs, faBootstrap, faJava, faAngular, faGithub, faAngular} from "@fortawesome/free-brands-svg-icons";
+import {  faDatabase, faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
 
 
 const Skills = () => {
@@ -10,9 +10,9 @@ const Skills = () => {
             <h1 className="py-5">my tehnical skills</h1>
                 <div className="container">
                     <div className="row justify-content beetween mx-auto">
+
                     <div className="col-lg-3 col-md-6 col-sm-6">
-                    
-                            <div className="circle"><FontAwesomeIcon className="icon" icon={faHtml5} size="2x" /></div>
+                    <div className="circle"><FontAwesomeIcon className="icon" icon={faHtml5} size="2x" /></div>
                                 <h3>Html5
                                 </h3>
                         </div>
@@ -82,27 +82,27 @@ const Skills = () => {
                                 </h3>
                         </div>
 
-                         {/* - */}
+                        
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="circle"><FontAwesomeIcon className="icon" icon={faDatabase} size="2x" /></div>
                                 <h3>SQL
                                 </h3>
                         </div>
-                        {/* - */}
+                        
                         
                         <div className="col-lg-3 col-md-6 col-sm-6">
                         <div className="circle"><FontAwesomeIcon className="icon" icon={faDatabase} size="2x" /></div>
                             <h3>Postman
                             </h3>
                         </div>
-                        {/* - */}
+                        
                         
                         <div className="col-lg-3 col-md-6 col-sm-6">
                         <div className="circle"><FontAwesomeIcon className="icon" icon={faNodeJs} size="2x" /></div>
                             <h3>Express Js
                             </h3>
                         </div>
-                        {/* - */}
+                        
                         
                         <div className="col-lg-3 col-md-6 col-sm-6">
                         <div className="circle"><FontAwesomeIcon className="icon" icon={faJs} size="2x" /></div>
