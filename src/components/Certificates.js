@@ -97,7 +97,7 @@ const Certificates = () => {
   const openPopupboxCertificate4 = () => {
     const content = (
       <>
-        <img className="certificate-image-popupbox" src={certificate3} alt="Certificate4..." />
+        <img className="certificate-image-popupbox" src={certificate4} alt="Certificate4..." />
       </>
     )
     PopupboxManager.open({ content });
